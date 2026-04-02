@@ -1,0 +1,10 @@
+    SMALL_BOX,
+    MEDIUM_BOX,
+    LARGE_BOX,
+    XL_BOX,
+    FRUIT_BOX,
+    WIDE,
+    SQUARE,
+    HIGH_SQUARE,
+    WARDROBE_BOX,
+    INSULATED_BOX
