@@ -33,6 +33,8 @@ This mod is in **early access** — core functionality is stable and working, wi
 
 Each product lives in its own folder inside `BepInEx/plugins/AdditionalProducts/products/`. The folder name doesn't matter, but it should be unique.
 
+There are example products available to view in [here](https://github.com/ApolloVulpez/additionalProducts/tree/main/Example%20Product)
+
 ### Folder Structure
 
 ```
