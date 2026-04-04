@@ -114,12 +114,15 @@ The manifest defines everything about your product. Here's a full example:
 ### Valid Values
 
 **ProductGroup**
+
 Find all valid Product Groups in [Product Groups.md](https://github.com/ApolloVulpez/additionalProducts/blob/main/Product%20Groups.md)
 
 **ShelfType**
+
 Find all valid Shelf Types in [Shelf Types.md](https://github.com/ApolloVulpez/additionalProducts/blob/main/Shelf%20Types.md)
 
 **BaseProduct**
+
 Any valid product type name from the game. See the full list of available base products and their textures in [Product Types.md](https://github.com/ApolloVulpez/additionalProducts/blob/main/Product%20Types.md). If you are struggling to figure out what your product that you are using as a foundation is called, you can use the [Type Names.md](https://github.com/ApolloVulpez/additionalProducts/blob/main/Type%20Names.md) file as it contains all translations from ingame name to product type name. Such as `CD_01 = Alone Handprint CD` CD_01 is the type name. Alone Handprint CD is the ingame name in english. Unfortunately all names are in english so if you play in a different language you may struggle to find your type name, sorry.
 
 ---
