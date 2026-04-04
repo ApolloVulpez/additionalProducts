@@ -1,3 +1,5 @@
+TYPE | Ingame Name
+ 
  CEREAL = Cereal
 
  JAM = Jam
