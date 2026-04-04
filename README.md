@@ -27,7 +27,7 @@ This mod is in **early access** — core functionality is stable and working, wi
 5. Add your product packs to the `products/` folder and you're good to go
 
 ---
-# This mod does nothing by itself, and it does not come with preinstalled products. Other creators have my full permission to release their product packs on nexus for Additional products!
+## This mod does nothing by itself, and it does not come with preinstalled products. Other creators have my full permission to release their product packs on nexus for Additional products! Just reference Additional products as a dependency and tell people where to drop your product mod. `BepInEx/plugins/AdditionalProducts/products/`
 
 ## For Mod Authors — Creating a Product
 
