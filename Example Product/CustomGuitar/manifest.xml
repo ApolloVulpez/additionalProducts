@@ -1,0 +1,17 @@
+<Product>
+    <Name>VibrantEcho</Name>
+	<Brand>Apollocaster</Brand>
+    <BaseProduct>ELECTRO_03</BaseProduct>
+    <ProductGroup>MUSIC</ProductGroup>
+    <ShelfType>MUSIC_SHELF_HANGER</ShelfType>
+	<BoxType>WIDE</BoxType>
+	<FacePlayer>false</FacePlayer>
+	<BoxRowCount>1</BoxRowCount>
+	<BoxColumnCount>3</BoxColumnCount>
+	<Scale>1,1,1</Scale>
+    <Cost>200.0</Cost>
+    <UnitMarketPrice>283.0</UnitMarketPrice>
+    <ShelfRowCount>0</ShelfRowCount>
+    <ShelfColumnCount>0</ShelfColumnCount>
+    <RequiredLicense>1</RequiredLicense>
+</Product>
