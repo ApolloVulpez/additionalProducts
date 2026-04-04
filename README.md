@@ -98,14 +98,14 @@ The manifest defines everything about your product. Here's a full example:
 | `BaseProduct` | The existing game product to clone the 3D mesh from | `CEREAL` |
 | `ProductGroup` | The department this product belongs to | `GROCERY` |
 | `ShelfType` | What type of shelf this product can be placed on | `SHELF` |
-| `BoxType` | The box type used for delivery | `SMALL_BOX` |
+| `BoxType` | The box type used for storage and delivery | `SMALL_BOX` |
 | `Cost` | Wholesale cost per unit | `1.20` |
 | `UnitMarketPrice` | Suggested retail price | `2.49` |
 | `ShelfRowCount` | How many rows of product fit on a shelf | `5` |
 | `ShelfColumnCount` | How many columns of product fit on a shelf | `4` |
 | `BoxRowCount` | Rows of product per delivery box | `3` |
 | `BoxColumnCount` | Columns of product per delivery box | `6` |
-| `RequiredLicense` | License level required to unlock (0 = always available) | `1` |
+| `RequiredLicense` | License level required to unlock (1 = first license) | `1` |
 | `FacePlayer` | Whether the product faces the player when in a box (Some products rotate weird if this is false, so experimentation is required for your product) | `true` |
 | `Scale` | Visual scale of the product mesh (x,y,z) | `1,1,1` |
 
