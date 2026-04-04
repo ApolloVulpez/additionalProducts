@@ -79,11 +79,11 @@ The manifest defines everything about your product. Here's a full example:
     <BoxType>SMALL_BOX</BoxType>
     <Cost>1.20</Cost>
     <UnitMarketPrice>2.49</UnitMarketPrice>
-    <ShelfRowCount>1</ShelfRowCount>
-    <ShelfColumnCount>3</ShelfColumnCount>
-    <BoxRowCount>2</BoxRowCount>
-    <BoxColumnCount>3</BoxColumnCount>
-    <RequiredLicense>0</RequiredLicense>
+    <ShelfRowCount>5</ShelfRowCount>
+    <ShelfColumnCount>4</ShelfColumnCount>
+    <BoxRowCount>3</BoxRowCount>
+    <BoxColumnCount>6</BoxColumnCount>
+    <RequiredLicense>1</RequiredLicense>
     <FacePlayer>true</FacePlayer>
     <Scale>1,1,1</Scale>
 </Product>
@@ -101,12 +101,12 @@ The manifest defines everything about your product. Here's a full example:
 | `BoxType` | The box type used for delivery | `SMALL_BOX` |
 | `Cost` | Wholesale cost per unit | `1.20` |
 | `UnitMarketPrice` | Suggested retail price | `2.49` |
-| `ShelfRowCount` | How many rows of product fit on a shelf | `1` |
-| `ShelfColumnCount` | How many columns of product fit on a shelf | `3` |
-| `BoxRowCount` | Rows of product per delivery box | `2` |
-| `BoxColumnCount` | Columns of product per delivery box | `3` |
-| `RequiredLicense` | License level required to unlock (0 = always available) | `0` |
-| `FacePlayer` | Whether the product faces the player when on a shelf | `true` |
+| `ShelfRowCount` | How many rows of product fit on a shelf | `5` |
+| `ShelfColumnCount` | How many columns of product fit on a shelf | `4` |
+| `BoxRowCount` | Rows of product per delivery box | `3` |
+| `BoxColumnCount` | Columns of product per delivery box | `6` |
+| `RequiredLicense` | License level required to unlock (0 = always available) | `1` |
+| `FacePlayer` | Whether the product faces the player when in a box (Some products rotate weird if this is false, so experimentation is required for your product) | `true` |
 | `Scale` | Visual scale of the product mesh (x,y,z) | `1,1,1` |
 
 ---
