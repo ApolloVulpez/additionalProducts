@@ -1,0 +1,17 @@
+<Product>
+    <Name>Test Cereal</Name>
+	<Brand>TestingINC</Brand>
+    <BaseProduct>BOX</BaseProduct>
+    <ProductGroup>GROCERY</ProductGroup>
+    <ShelfType>SHELF</ShelfType>
+	<BoxType>LARGE_BOX</BoxType>
+	<FacePlayer>true</FacePlayer>
+	<BoxRowCount>3</BoxRowCount>
+	<BoxColumnCount>6</BoxColumnCount>
+	<Scale>1,1,1</Scale>
+    <Cost>1.99</Cost>
+    <UnitMarketPrice>1.99</UnitMarketPrice>
+    <ShelfRowCount>5</ShelfRowCount>
+    <ShelfColumnCount>4</ShelfColumnCount>
+    <RequiredLicense>1</RequiredLicense>
+</Product>
