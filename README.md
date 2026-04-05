@@ -142,6 +142,9 @@ Place your textures in the `textures/` subfolder next to your `manifest.xml`.
 
 For `texture.png` — you can take the texture currently in use for the model you are using as a base, and apply your texture over the top, then just drop the editted texture into the texture folder. You're basically replacing the texture from the old model with your texture. Remember positioning matters! Use the old texture as a foundation for your custom one so everything lines up. All textures will be available next to the product type in Product Types.md referenced above.
 
+There is also a template available for CEREAL that shows you how to properly lay your texture out, also comes with a PSD file for Photoshop. This was kindly created by SchneakySchteveTTV over on discord
+Find it here: [CEREAL Template](https://github.com/ApolloVulpez/additionalProducts/tree/main/Templates/Cereal)
+
 ---
 
 ## Planned Features
