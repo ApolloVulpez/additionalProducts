@@ -79,15 +79,18 @@ The manifest defines everything about your product. Here's a full example:
     <ProductGroup>GROCERY</ProductGroup>
     <ShelfType>SHELF</ShelfType>
     <BoxType>SMALL_BOX</BoxType>
+    <Height>0.08366193</Height>
     <Cost>1.20</Cost>
     <UnitMarketPrice>2.49</UnitMarketPrice>
     <ShelfRowCount>5</ShelfRowCount>
     <ShelfColumnCount>4</ShelfColumnCount>
     <BoxRowCount>3</BoxRowCount>
     <BoxColumnCount>6</BoxColumnCount>
+    <IsVerticalBoxLayout>false</IsVerticalBoxLayout>
     <RequiredLicense>1</RequiredLicense>
     <FacePlayer>true</FacePlayer>
     <Scale>1,1,1</Scale>
+    <LocalPosition>0,0,0</LocalPosition>
 </Product>
 ```
 
@@ -101,15 +104,18 @@ The manifest defines everything about your product. Here's a full example:
 | `ProductGroup` | The department this product belongs to | `GROCERY` |
 | `ShelfType` | What type of shelf this product can be placed on | `SHELF` |
 | `BoxType` | The box type used for storage and delivery | `SMALL_BOX` |
+| `Height` | Some products such as t-shirts require this to stack on top of each other | `0` |
 | `Cost` | Wholesale cost per unit | `1.20` |
 | `UnitMarketPrice` | Suggested retail price | `2.49` |
 | `ShelfRowCount` | How many rows of product fit on a shelf | `5` |
 | `ShelfColumnCount` | How many columns of product fit on a shelf | `4` |
 | `BoxRowCount` | Rows of product per delivery box | `3` |
 | `BoxColumnCount` | Columns of product per delivery box | `6` |
+| `IsVerticalBoxLayout` | Some products stack on top of each other in boxes, this allows that. | `false` |
 | `RequiredLicense` | License level required to unlock (1 = first license) | `1` |
 | `FacePlayer` | Whether the product faces the player when in a box (Some products rotate weird if this is false, so experimentation is required for your product) | `true` |
 | `Scale` | Visual scale of the product mesh (x,y,z) | `1,1,1` |
+| `LocalPosition` | Allows you to offset the products on the shelves in the XYZ axis. This will fix any clipping issues when aligning products | `0,0,0` |
 
 ---
 
@@ -129,6 +135,7 @@ Any valid product type name from the game. See the full list of available base p
 
 If you are struggling to figure out what your product that you are using as a foundation is called, you can use the [Type Names.md](https://github.com/ApolloVulpez/additionalProducts/blob/main/Type%20Names.md) file as it contains all translations from ingame name to product type name. Such as `CD_01 = Alone Handprint CD` CD_01 is the type name. Alone Handprint CD is the ingame name in english. Unfortunately all names are in english so if you play in a different language you may struggle to find your type name, sorry.
 
+### Note: T-Shirts use scale 2.08 in the base game, so if you're making a T-Shirt product, make sure to set the scale to `2.08, 2.08, 2.08` otherwise they will be really small. 
 ---
 
 ### Textures
