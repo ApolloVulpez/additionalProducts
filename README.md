@@ -38,7 +38,7 @@ There are example products available to view in [here](https://github.com/Apollo
 ### Folder Structure
 
 ```
-products/
+Products/
   my_product/
     manifest.xml
     textures/
@@ -49,7 +49,7 @@ products/
 You can also group products into packs:
 
 ```
-products/
+Products/
   MyCerealPack/
     ChokiPik/
       manifest.xml
