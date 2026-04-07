@@ -12,3 +12,4 @@
 
 | Bug | Description | Status |
 |---|---|---|
+| Single deliveries | Custom products deliver one at a time instead of all together | Not started |
