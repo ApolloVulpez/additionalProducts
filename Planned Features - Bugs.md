@@ -8,7 +8,7 @@
 | Possible fomod integration and multi-xml product variants | A Fomod integration would allow users using fomod installers to pick whether they want all of the products, some of the products, different variants of a product all in one friendly gui | Not Started |
 | Material preferences | Ability to change brightness, constrast, smoothness and other values of materials so that textures can pop a little more with less effort | Not Started |
 
-```
+# Bugs
 
-dasd
-
+| Bug | Description | Status |
+|---|---|---|
