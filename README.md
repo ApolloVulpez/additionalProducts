@@ -23,8 +23,8 @@ This mod is in **early access** — core functionality is stable and working, wi
 1. Make sure you have already installed Tobey's Bepinex Pack from nexus
 2. Download the latest version of Additional Products from Nexus
 3. Drop `additionalProducts.dll` into `BepInEx/plugins/`
-4. Launch the game once to generate the `BepInEx/plugins/AdditionalProducts/products/` folder
-5. Add your product packs to the `products/` folder and you're good to go
+4. Launch the game once to generate the `BepInEx/plugins/AdditionalProducts/Products/` folder
+5. Add your product packs to the `Products/` folder and you're good to go
 
 ---
 ## This mod does nothing by itself, and it does not come with preinstalled products. Other creators have my full permission to release their product packs on nexus for Additional products! Just reference Additional products as a dependency and tell people where to drop your product mod. `BepInEx/plugins/AdditionalProducts/products/`
