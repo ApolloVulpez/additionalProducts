@@ -13,5 +13,4 @@
 | Bug | Description | Status |
 |---|---|---|
 | Single deliveries | Custom products deliver one at a time instead of all together | Not started |
-| Pallet product count, counts boxes | On pallets, the number that displays the amount of product on the pallet is displaying the number of boxes instead of the number of actual products | Working on it |
 | Restockers local position | Restockers don't respect the local position of products, causing them to be at their normal position | Not Started |
