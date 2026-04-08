@@ -13,4 +13,4 @@
 | Bug | Description | Status |
 |---|---|---|
 | Single deliveries | Custom products deliver one at a time instead of all together | Not started |
-| Restockers local position | Restockers don't respect the local position of products, causing them to be at their normal position | Not Started |
+
