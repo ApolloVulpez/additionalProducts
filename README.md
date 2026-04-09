@@ -66,6 +66,11 @@ Products/
 Additional Products will scan all subfolders recursively, so any `manifest.xml` it finds will be loaded regardless of how deep it is.
 
 ---
+### Layout Editing
+
+In game, if you press F10 while looking at a custom product (preferably one you've made) a GUI will open allowing you to move each individual product around from first slot to last. You can also rotate them. All keybinds are listed in game
+When you save your custom layout, the mod will automatically make a layout.json file in your products mod directory. Make sure you ship this with your mod, othewise your custom layout will not load for others! and do not edit the file!
+When adding new slots to the shelf to have more products on the shelf, you may need to add the slots first, save and then add more products before you can edit the layout. And before you delete slots make sure there are no products on the shelf! This will bug the game out and lose you products.
 
 ### manifest.xml
 
@@ -165,10 +170,6 @@ Find it here: [CEREAL Template](https://github.com/ApolloVulpez/additionalProduc
 
 ---
 
-## Planned Features
-
-- **Custom OBJ mesh support** — bring your own 3D model instead of cloning an existing product's mesh
-- More manifest fields for fine-grained control over product placement and behaviour
 
 
 
