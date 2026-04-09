@@ -92,6 +92,9 @@ The manifest defines everything about your product. Here's a full example:
     <Scale>1,1,1</Scale>
     <LocalPosition>0,0,0</LocalPosition>
 </Product>
+
+# Optional:
+    <Scale2>1,1,1</Scale2>
 ```
 
 ### Field Reference
@@ -116,6 +119,10 @@ The manifest defines everything about your product. Here's a full example:
 | `FacePlayer` | Whether the product faces the player when in a box (Some products rotate weird if this is false, so experimentation is required for your product) | `true` |
 | `Scale` | Visual scale of the product mesh (x,y,z) | `1,1,1` |
 | `LocalPosition` | Allows you to offset the products on the shelves in the XYZ axis. This will fix any clipping issues when aligning products | `0,0,0` |
+
+### Optional Fields
+| Field | Description | Example |
+| `Scale2` | Some products may have multiple parts to them, such as T-Shirts (Folded and on hangers). Scale will handle folded, and scale 2 will handle the hangers | `1,1,1` |
 
 ---
 
