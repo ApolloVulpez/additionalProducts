@@ -121,7 +121,9 @@ The manifest defines everything about your product. Here's a full example:
 | `LocalPosition` | Allows you to offset the products on the shelves in the XYZ axis. This will fix any clipping issues when aligning products | `0,0,0` |
 
 ### Optional Fields
+
 | Field | Description | Example |
+|---|---|---|
 | `Scale2` | Some products may have multiple parts to them, such as T-Shirts (Folded and on hangers). Scale will handle folded, and scale 2 will handle the hangers | `1,1,1` |
 
 ---
