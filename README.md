@@ -144,6 +144,8 @@ Any valid product type name from the game. See the full list of available base p
 
 If you are struggling to figure out what your product that you are using as a foundation is called, you can use the [Type Names.md](https://github.com/ApolloVulpez/additionalProducts/blob/main/Type%20Names.md) file as it contains all translations from ingame name to product type name. Such as `CD_01 = Alone Handprint CD` CD_01 is the type name. Alone Handprint CD is the ingame name in english. Unfortunately all names are in english so if you play in a different language you may struggle to find your type name, sorry.
 
+A new resource I just added recently is [ProductDatas.yaml](https://raw.githubusercontent.com/ApolloVulpez/additionalProducts/refs/heads/main/ProductDatas.yaml) This contains every product type with its respective data. Just search for your product type, and it will  tell you the default shelf rows, columns, box rows etc!
+
 ### Note: T-Shirts use scale 2.08 in the base game, so if you're making a T-Shirt product, make sure to set the scale to `2.08, 2.08, 2.08` otherwise they will be really small. 
 ---
 
