@@ -95,7 +95,7 @@ The manifest defines everything about your product. Here's a full example:
     <RequiredLicense>1</RequiredLicense>
     <FacePlayer>true</FacePlayer>
     <Scale>1,1,1</Scale>
-    <LocalPosition>0,0,0</LocalPosition>
+    <LocalPosition>0,0,0</LocalPosition> Deprecated (Layout Editing will soon replace this)
 </Product>
 
 # Optional:
@@ -123,7 +123,7 @@ The manifest defines everything about your product. Here's a full example:
 | `RequiredLicense` | License level required to unlock (1 = first license) | `1` |
 | `FacePlayer` | Whether the product faces the player when in a box (Some products rotate weird if this is false, so experimentation is required for your product) | `true` |
 | `Scale` | Visual scale of the product mesh (x,y,z) | `1,1,1` |
-| `LocalPosition` | Allows you to offset the products on the shelves in the XYZ axis. This will fix any clipping issues when aligning products | `0,0,0` |
+| `LocalPosition(DEPRECATED)` | Allows you to offset the products on the shelves in the XYZ axis. This will fix any clipping issues when aligning products. (LAYOUT EDITING WILL REPLACE THIS, DO NOT USE FOR NEW PRODUCTS) | `0,0,0` | 
 
 ### Optional Fields
 
