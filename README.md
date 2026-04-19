@@ -30,6 +30,7 @@ This mod is in **early access** — core functionality is stable and working, wi
 ## This mod does nothing by itself, and it does not come with preinstalled products. Other creators have my full permission to release their product packs on nexus for Additional products! Just reference Additional products as a dependency and tell people where to drop your product mod. `BepInEx/plugins/AdditionalProducts/Products/`
 
 ## For Mod Authors — Creating a Product
+Warning, making product mods comes with its risks. Do not make products in a save you care about, unless you have backups of that save. I'm not responsible for save corruption while product testing.
 
 ### Crafting Table
 
