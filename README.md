@@ -31,6 +31,19 @@ This mod is in **early access** — core functionality is stable and working, wi
 
 ## For Mod Authors — Creating a Product
 
+### Crafting Table
+
+Recently added is a table you can purchase from the furniture tab in the electronics section called "Crafting Table" 
+Place this table down anywhere and press F to begin. Use the product window to select a product as a base then edit all of its required values and edit its texture live! When you change its name and reload the texture. It'll make a new product folder in your products folder under the new name of your product. Here you can hotswap the texture and icon till its to your liking. 
+
+The slots tab is for custom box layouts, its pretty manual but allows you to set up boxes exactly how you like, fitting more or less products depending on your own needs for your products. Use the green M to get a moving tool on each of the local positions for an easier time editing. 
+
+When all is edited to your liking, hit the save button, and the game will be hot-loaded into the game, ready for immediate testing and use. 
+
+This is the new recommended way of making products, the old manual way is still available though if you're used to it, but its not recommended. Use the crafting table!
+
+### Products Location
+
 Each product lives in its own folder inside `BepInEx/plugins/AdditionalProducts/Products/`. The folder name doesn't matter, but it should be unique.
 
 There are example products available to view in [here](https://github.com/ApolloVulpez/additionalProducts/tree/main/Example%20Product)
