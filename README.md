@@ -35,7 +35,7 @@ Warning, making product mods comes with its risks. Do not make products in a sav
 ### Crafting Table
 
 Recently added is a table you can purchase from the furniture tab in the electronics section called "Crafting Table" 
-Place this table down anywhere and press F to begin. Use the product window to select a product as a base then edit all of its required values and edit its texture live! When you change its name and reload the texture. It'll make a new product folder in your products folder under the new name of your product. Here you can hotswap the texture and icon till its to your liking. 
+Place this table down anywhere and press E to begin. Use the product window to select a product as a base then edit all of its required values and edit its texture live! When you change its name and reload the texture. It'll make a new product folder in your products folder under the new name of your product. Here you can hotswap the texture and icon till its to your liking. 
 
 The slots tab is for custom box layouts, its pretty manual but allows you to set up boxes exactly how you like, fitting more or less products depending on your own needs for your products. Use the green M to get a moving tool on each of the local positions for an easier time editing. 
 
