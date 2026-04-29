@@ -44,6 +44,11 @@ When all is edited to your liking, hit the save button, and the game will be hot
 
 This is the new recommended way of making products, the old manual way is still available though if you're used to it, but its not recommended. Use the crafting table!
 
+### Moving and Rotating  
+You can move and rotate the model on the table by clicking on it and right clicking on it while it is visible on the crafting the table 
+Click moves it up down left and right, and if you hold shift you'll be able to move it forwards and backwards instead of up and down
+Right click rotates it left and right and up and down, and if you hold shift it will roll left and right. 
+
 ### Products Location
 
 Each product lives in its own folder inside `BepInEx/plugins/AdditionalProducts/Products/`. The folder name doesn't matter, but it should be unique.
