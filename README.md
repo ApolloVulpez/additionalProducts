@@ -15,6 +15,7 @@ This mod is in **early access** — core functionality is stable and working, wi
 - Supports product packs — bundle multiple products in a single folder (Each product must have their own folder still! This is just for organising)
 - Auto-assigns product IDs to avoid conflicts between mods
 - Products removed from the products folder are automatically cleaned up
+- Custom OBJ support
 
 ---
 
@@ -184,6 +185,38 @@ Find it here: [CEREAL Template](https://github.com/ApolloVulpez/additionalProduc
 
 ---
 
+### Custom Models (OBJ)
 
+To utilize a custom model in the game, there are two methods to go about it. 
+Method one: 
+```
+Go into the game, and open the crafting table. Enable custom only and then scroll to the bottom of the
+list and click on the new button called "Load Custom OBJ" 
 
+When the windows explorer window shows up, navigate to where your custom OBJ is and select it. Small
+note, if your model comes with an MTL file, make sure it is in the exact same directory as the OBJ before selecting it.
 
+After selecting the obj in the windows explorer window, the product creation process will begin like
+normal, but with a blank template with your custom OBJ as the base. 
+
+When saving with the table, it will save as a default base product in the xml file (usually acoustic_01)
+this is normal behavior, as the mod replaces that base game products base mesh with your custom mesh.
+
+DO NOT REMOVE IT FROM THE XML. 
+```
+
+Method two: 
+```
+This is the manual method. Come here after completing the normal product creation method as this must
+be done at the end of the product creation pattern.
+
+Add a new directory to your product directory called "model" and place your obj and mtl pair in this folder. 
+On next load, the game will automatically detect your product has a custom model, and overwrite the mesh of
+the product you have set in the xml as the base.
+
+YOU MUST HAVE A BASE PRODUCT SET, REGARDLESS.
+
+This is because the mod uses the base model as a base for its scripts and other important things
+the game uses by replacing the mesh. 
+```
+---
