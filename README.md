@@ -193,6 +193,13 @@ Find it here: [CEREAL Template](https://github.com/ApolloVulpez/additionalProduc
 ### Custom Models (OBJ)
 
 To utilize a custom model in the game, there are two methods to go about it. 
+
+|File | Location |
+|---|---|
+| OBJ | ProductDir/model/AnyName.obj |
+| MTL | ProductDir/model/AnyName.mtl |
+
+
 Method one: 
 ```
 Go into the game, and open the crafting table. Enable custom only and then scroll to the bottom of the
