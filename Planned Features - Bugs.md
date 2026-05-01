@@ -20,3 +20,4 @@
 | Item | Description |
 |---|---|
 | New XML Line | Inherit Default Shelf Container - Some products come with shelf display items, such as CDs having a basket, or drums having stands. The new XML line will allow you to decide whether you want to use these or not | 
+| Temp working directory | A temp directory will be created while working on products. this directory will automatically be deleted after saving a new product or starting a new product. Keeps things clean, and broken temp products from populating the products directory |
