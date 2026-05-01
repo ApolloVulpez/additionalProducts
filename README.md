@@ -116,7 +116,6 @@ The manifest defines everything about your product. Here's a full example:
     <FacePlayer>true</FacePlayer>
     <InheritDefaultShelfContainer>true</InheritDefaultShelfContainer>
     <Scale>1,1,1</Scale>
-    <LocalPosition>0,0,0</LocalPosition> Deprecated (Layout Editing will soon replace this)
 </Product>
 
 # Optional:
@@ -145,7 +144,6 @@ The manifest defines everything about your product. Here's a full example:
 | `FacePlayer` | Whether the product faces the player when in a box (Some products rotate weird if this is false, so experimentation is required for your product) | `true` |
 | `InheritDefaultShelfContainer` | Dictates whether the custom product will use the base products shelf container or not. (For example, CD baskets or drum stands.) | `false` |
 | `Scale` | Visual scale of the product mesh (x,y,z) | `1,1,1` |
-| `LocalPosition(DEPRECATED)` | Allows you to offset the products on the shelves in the XYZ axis. This will fix any clipping issues when aligning products. (LAYOUT EDITING WILL REPLACE THIS, DO NOT USE FOR NEW PRODUCTS) | `0,0,0` | 
 
 ### Optional Fields
 
