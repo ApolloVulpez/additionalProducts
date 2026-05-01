@@ -114,6 +114,7 @@ The manifest defines everything about your product. Here's a full example:
     <IsVerticalBoxLayout>false</IsVerticalBoxLayout>
     <RequiredLicense>1</RequiredLicense>
     <FacePlayer>true</FacePlayer>
+    <InheritDefaultShelfContainer>true</InheritDefaultShelfContainer>
     <Scale>1,1,1</Scale>
     <LocalPosition>0,0,0</LocalPosition> Deprecated (Layout Editing will soon replace this)
 </Product>
@@ -142,6 +143,7 @@ The manifest defines everything about your product. Here's a full example:
 | `IsVerticalBoxLayout` | Some products stack on top of each other in boxes, this allows that. | `false` |
 | `RequiredLicense` | License level required to unlock (1 = first license) | `1` |
 | `FacePlayer` | Whether the product faces the player when in a box (Some products rotate weird if this is false, so experimentation is required for your product) | `true` |
+| `InheritDefaultShelfContainer` | Dictates whether the custom product will use the base products shelf container or not. (For example, CD baskets or drum stands.) | `false` |
 | `Scale` | Visual scale of the product mesh (x,y,z) | `1,1,1` |
 | `LocalPosition(DEPRECATED)` | Allows you to offset the products on the shelves in the XYZ axis. This will fix any clipping issues when aligning products. (LAYOUT EDITING WILL REPLACE THIS, DO NOT USE FOR NEW PRODUCTS) | `0,0,0` | 
 
