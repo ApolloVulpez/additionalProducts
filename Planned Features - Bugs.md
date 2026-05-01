@@ -19,7 +19,4 @@
 
 | Item | Description |
 |---|---|
-| OBJ/MTL Parsing | Ability to add custom models to the game |
-| Texture renderer | Changed texture renderer background to dark red to constrast dark parts of the texture from the background |
-| Foundation products with stands/other | Fixed a bug where foundation products, such as drums, don't come with their respective stands on shelves if used as a custom product |
-| Move/Rotate Product with Mouse | User will be able to click and drag the preview product in all axes and rotate the preview product in all axes by using the left and right mouse button paired with the shift key |
+| New XML Line | Use product shelf defaults - Some products come with shelf display items, such as CDs having a basket, or drums having stands. The new XML line will allow you to decide whether you want to use these or not | 
