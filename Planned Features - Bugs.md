@@ -19,4 +19,4 @@
 
 | Item | Description |
 |---|---|
-| New XML Line | Use product shelf defaults - Some products come with shelf display items, such as CDs having a basket, or drums having stands. The new XML line will allow you to decide whether you want to use these or not | 
+| New XML Line | Inherit Default Shelf Container - Some products come with shelf display items, such as CDs having a basket, or drums having stands. The new XML line will allow you to decide whether you want to use these or not | 
