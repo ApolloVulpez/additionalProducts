@@ -13,10 +13,9 @@
 
 | Bug | Description | Status |
 |---|---|---|
-|Custom OBJ Products fail to hot load | When a custom product is created wtih a custom OBJ, the hot loading process after saving the product fails with an error code. Causing the spawned box to be empty, but if the game is reloaded, the product spawns fine | Fixed in next update |
 
 # Releasing next update
 
 | Item | Description |
 |---|---|
-| Custom OBJ Bug Fix | Fixing hot loading of custom obj products | 
+
