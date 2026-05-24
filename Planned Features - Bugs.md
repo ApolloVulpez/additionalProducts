@@ -5,7 +5,7 @@
 |---|---|---|
 | Schema system, for xml writing in programs like VSCode | A schema will allow programs like VSCode to outline in red any syntax errors in an xml file, saving the user making a product mod all the hassle. |Not started |
 | Possible fomod integration and multi-xml product variants | A Fomod integration would allow users using fomod installers to pick whether they want all of the products, some of the products, different variants of a product all in one friendly gui | Not Started |
-| Material preferences | Ability to change brightness, constrast, smoothness and other values of materials so that textures can pop a little more with less effort | Not Started |
+| Material preferences | Ability to change brightness, contrast, smoothness and other values of materials so that textures can pop a little more with less effort | Not Started |
 | In game zip file creation | Turn your products in ready to ship single product files or packs all in game | Not started |
 
 
@@ -24,4 +24,4 @@
 |---|---|
 | Ghosting | Ghosting has been fixed |
 | Material Preferences | Emission, Metallic and transparency map compatibility added with a material customization section for the table | 
-| Custom products not spawnming | This has been fixed | 
+| Custom products not spawning | This has been fixed | 
