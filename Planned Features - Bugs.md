@@ -13,9 +13,14 @@
 
 | Bug | Description | Status |
 |---|---|---|
+| Items on candy rack LOD issue | Products created for the candy rack appear black when far away and appear normal when upclose. This is due to some LOD issue | Not started | 
+| Ghosting | Some products have ghosts of other textures in them. | Fixed |
+| Custom Products not spawning in box | When creating a new custom product, it would not spawn in the box created by the table, causing an empty box to spawn instead. | Fixed | 
 
 # Releasing next update
 
 | Item | Description |
 |---|---|
-
+| Ghosting | Ghosting has been fixed |
+| Material Preferences | Emission, Metallic and transparency map compatibility added with a material customization section for the table | 
+| Custom products not spawnming | This has been fixed | 
