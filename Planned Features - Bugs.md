@@ -7,6 +7,7 @@
 | Possible fomod integration and multi-xml product variants | A Fomod integration would allow users using fomod installers to pick whether they want all of the products, some of the products, different variants of a product all in one friendly gui | Not Started |
 | In game zip file creation | Turn your products in ready to ship single product files or packs all in game | Not started |
 | In house LOD building | At the beginning of the game during load, the mod will auto build lod groups for existing products meaning everything as LODs. This will drastically improve performance. | Not started |
+| Naterial Pref QOL | Most of the numbers will be replaced with sliders instead for ease of use | Not started |
 
 
 # Bugs
