@@ -16,6 +16,7 @@ This mod is in **early access** — core functionality is stable and working, wi
 - Auto-assigns product IDs to avoid conflicts between mods
 - Products removed from the products folder are automatically cleaned up
 - Custom OBJ support
+- Material preferences! Custom metallic maps, emission maps and transparency maps are now part of product creation
 
 ---
 
@@ -189,7 +190,64 @@ There is also a template available for CEREAL that shows you how to properly lay
 Find it here: [CEREAL Template](https://github.com/ApolloVulpez/additionalProducts/tree/main/Templates/Cereal)
 
 ---
+### Material Preferences
 
+additional Products comes with its own purpose built shader, allowing you to modify the material that your custom products uses
+
+Available maps: 
+
+| Map Name | Location | Purpose | 
+|---|---|---|
+| `metallic.png` | ProductDir/textures/metallic.png | Allows you to apply a metallic look to your products, the intensity is controllable from the table |
+| `emission.png` | ProductDir/textures/emission.png | You can apply a glowing affect to your products |
+| `transparency` | ProductDir/textures/transparency.png | You can make certain parts of your product transparent. Say for a see-through plastic/glass effect! |
+
+### New controls on the table
+
+There is now a mat button on the table that opens the material preferences screen. In here you can fine tune all of the values described above, as well as culling* and the color of the whole product should you wish. 
+
+*Culling is basically a rendering term for what should the material render. Front faces, back faces or both. Culling off is required to see the interior of your products should you use it in conjunction with transparency. Back is not really used unless you wanna make a funky effect. and Front is standard. 
+
+### The manual method
+Material preferences can be done via a file as well should you not want to use the table. 
+File name is: `material.json` and should be placed in the top level of the ProductDir next to the manifest
+
+material json layout: 
+
+```json
+{
+  "colorR": 1.0000, "colorG": 1.0000, "colorB": 1.0000,
+  "brightness": 1.0000,
+  "metallic": 0.0000, "smoothness": 0.0000,
+  "emissionEnabled": false,
+  "emissionR": 1.0000, "emissionG": 1.0000, "emissionB": 1.0000,
+  "emissionIntensity": 1.0000,
+  "transparency": 0.8500, "cullMode": 0
+}
+```
+You must make sure the syntax is exactly the same as above, otherwise it may not work correctly or at all. 
+Change the values as you see fit!
+
+Field explanations:
+
+| Field | Description | Example |
+|---|---|---|
+|`colorR`| The intensity of red in the main color of the product | 1.0000 |
+|`colorG`| The intensity of green in the main color of the product | 1.0000 |
+|`colorB`| The intensity of blue in the main color of the product | 1.0000 |
+|`metallic`| the intensity of the metallic effect on the product | 0.0 |
+|`emissionEnabled`| Is the emission on the model activated? | false |
+|`emissionR`| The intensity of red in the emission color | 1.0000 |
+|`emissionG`| The intensity of green in the emission color | 1.0000 |
+|`emissionB`| The intensity of blue in the emission color | 1.0000 |
+|`emissionIntensity`| The overall brightness of the emission | 1.0000 |
+|`transparency`| How transparent the product is, or the part of the product that your transparency map covers| 0.0 |
+
+### Map layouts
+
+All maps should be in the black and white channel. The parts painted in white will be the parts the map influences, whereas the parts painted in black will not be effected. All maps follow the same UV as the original product, so just paint over the original texture as a template when making maps. Simple!
+
+---
 ### Custom Models (OBJ)
 
 To utilize a custom model in the game, there are two methods to go about it. 
