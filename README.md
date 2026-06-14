@@ -9,7 +9,7 @@ This mod is in **early access** — core functionality is stable and working, wi
 
 ## Features
 
-- Add many new custom products to the game
+- Add many new custom products to the game.
 - Products integrate fully with the ordering products system, delivery trucks, shelves, stock management, and customer purchasing system
 - Supports custom icons and textures
 - Supports product packs — bundle multiple products in a single folder (Each product must have their own folder still! This is just for organising)
