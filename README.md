@@ -93,6 +93,9 @@ In game, if you press F10 while looking at a custom product (preferably one you'
 When you save your custom layout, the mod will automatically make a layout.json file in your products mod directory. Make sure you ship this with your mod, othewise your custom layout will not load for others! and do not edit the file!
 When adding new slots to the shelf to have more products on the shelf, you may need to add the slots first, save and then add more products before you can edit the layout. And before you delete slots make sure there are no products on the shelf! This will bug the game out and lose you products.
 
+Multiple shelf types for 1 product are seperated by layout overrides in the game. Pressing F10 on any shelf will automatically detect if its an override or a base shelf and all you have to do is edit and save like normal. No extra steps
+So say there are 2 shelves, setup a layout for both shelves using F10 and aP will do the rest.
+
 ### manifest.xml
 
 The manifest defines everything about your product. Here's a full example:
