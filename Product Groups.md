@@ -1,10 +1,11 @@
     GROCERY
     BAKERY
-    TOY
-    CLOTHING
+    TOY 
+    CLOTHING 
     ELECTRONICS
-    MUSIC
-    SPORTS
-    VENDING
-    FISH
-    EQUIPMENTS
+    MUSIC 
+    SPORTS 
+    VENDING 
+    FISH 
+    BEACH 
+    EQUIPMENTS 
