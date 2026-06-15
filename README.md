@@ -172,8 +172,6 @@ Find all valid Shelf Types in [Shelf Types.md](https://github.com/ApolloVulpez/a
 Any valid product type name from the game. See the full list of available base products and their textures in [ProductData.yaml](https://github.com/ApolloVulpez/additionalProducts/blob/main/ProductDatas.yaml). 
 You can also see all the default data lines for the products in this file. Such as box row, columns, shelf row, columns and other useful things.
 
-If you are struggling to figure out what type name the product you want to use has, use the crafting table. When you first start making your product using the crafting table, a new folder will be generated in the additional products directory called temp, and in there will be your new product with its manifest. In the new manifest your products type name will be listed under base product. 
-
 
 
 ### Note: T-Shirts use scale 2.08 in the base game, so if you're making a T-Shirt product, make sure to set the scale to `2.08, 2.08, 2.08` otherwise they will be really small. 
