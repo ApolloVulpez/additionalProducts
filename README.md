@@ -120,6 +120,8 @@ The manifest defines everything about your product. Here's a full example:
     <FacePlayer>true</FacePlayer>
     <InheritDefaultShelfContainer>true</InheritDefaultShelfContainer>
     <Scale>1,1,1</Scale>
+    <StorageRequirement>None</StorageRequirement>
+    <StorageSensitivity>None</StorageSensitivity>
 </Product>
 
 # Optional:
@@ -148,6 +150,8 @@ The manifest defines everything about your product. Here's a full example:
 | `FacePlayer` | Whether the product faces the player when in a box (Some products rotate weird if this is false, so experimentation is required for your product) | `true` |
 | `InheritDefaultShelfContainer` | Dictates whether the custom product will use the base products shelf container or not. (For example, CD baskets or drum stands.) | `false` |
 | `Scale` | Visual scale of the product mesh (x,y,z) | `1,1,1` |
+| `StorageRequirement` | Cooling type of the product. None is normal on shelf products, Cool for cool products, Fridge for products requiring refridgeration and Freezer for products that need to go in a freezer | `None` |
+| `StorageSensitivity` | How fast the product spoils when its outside of its required cooling room. Low, Medium, High, Critical | `None` |
 
 ### Optional Fields
 
