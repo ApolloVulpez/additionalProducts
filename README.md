@@ -96,6 +96,93 @@ When adding new slots to the shelf to have more products on the shelf, you may n
 Multiple shelf types for 1 product are seperated by layout overrides in the game. Pressing F10 on any shelf will automatically detect if its an override or a base shelf and all you have to do is edit and save like normal. No extra steps
 So say there are 2 shelves, setup a layout for both shelves using F10 and aP will do the rest.
 
+### Manual Implementation (Advanced)
+
+The layout file defines exactly where each product sits on a shelf, and can vary per shelf type. You can generate this automatically using the **F10 layout editor in-game** — you don't need to write it by hand. But if you want to, here's how.
+
+```json
+{
+  "baseLayout": {
+    "localPositions": [
+      {"x": 0.23, "y": 0.101, "z": -0.26},
+      {"x": 0.16, "y": 0.1846619, "z": -0.26}
+    ],
+    "eulerAngles": [
+      {"x": 0, "y": 0, "z": 359},
+      {"x": 0, "y": 0, "z": 359}
+    ]
+  },
+  "overrides": [
+    {
+      "id": "PLACEABLE_TYPE:20",
+      "localPositions": [
+        {"x": 0.12, "y": 0.34, "z": -0.45}
+      ],
+      "eulerAngles": [
+        {"x": -31, "y": -1, "z": 0}
+      ]
+    }
+  ]
+}
+```
+Structure
+
+``baseLayout`` — The default slot positions used on any shelf that doesn't have an override. Every entry in localPositions is one product slot, matched 1-to-1 with an entry in eulerAngles. The number of entries = the number of products that fit on the shelf.
+
+``overrides`` — Per-shelf-type position overrides. If a product needs to sit differently on a clothing rack vs a standard shelf, you add an override for that shelf type's ID. Overrides must have the same number of entries as baseLayout. Unused slots can be left as {"x":0,"y":0,"z":0}.
+
+Field Reference
+
+| Field | Description |
+|---|---|
+| `localPositions` | Position of each product slot relative to the shelf's origin, in metres |
+| `eulerAngles` |	Rotation of each product slot in degrees (x/y/z Euler angles) |
+| `id` |	Which shelf type this override applies to — see Placeable Type IDs below |
+
+Placeable Type IDs
+
+The id field in an override uses the format PLACEABLE_TYPE:N where N is the numeric ID of the shelf. Common shelf IDs:
+
+| ID | Shelf Type |
+|---|---|
+| `PLACEABLE_TYPE:0` |	`Small Shelf` |
+| `PLACEABLE_TYPE:1` |	`Vegetable Shelf` |
+| `PLACEABLE_TYPE:2` |	`Wide Shelf` |
+| `PLACEABLE_TYPE:7` |	`Wall Shelf` |
+| `PLACEABLE_TYPE:8` |	`Bakery Shelf` |
+| `PLACEABLE_TYPE:9` |	`Bakery Shelf Wide` |
+| `PLACEABLE_TYPE:11` |	`Circular Shelf` |
+| `PLACEABLE_TYPE:20` |	`Hanger Cloth Rack 1` |
+| `PLACEABLE_TYPE:21` |	`Hanger Cloth Rack 2` |
+| `PLACEABLE_TYPE:22` |	`Hanger Cloth Rack 3` |
+| `PLACEABLE_TYPE:23` |	`Hanger Cloth Rack 4` |
+| `PLACEABLE_TYPE:24` |	`Hanger Cloth Rack 5` |
+| `PLACEABLE_TYPE:25` |	`Folded Cloth Rack 1` |
+| `PLACEABLE_TYPE:26` |	`Folded Cloth Rack 2` |
+| `PLACEABLE_TYPE:27` |	`Folded Cloth Rack 3` |
+| `PLACEABLE_TYPE:28` |	`Sports Shelf Two Rack` |
+| `PLACEABLE_TYPE:29` |	`Sports Shelf Short Hanger` |
+| `PLACEABLE_TYPE:30` |	`Sports Shelf Long Hanger` |
+| `PLACEABLE_TYPE:31` |	`Music Shelf Hanger` |
+| `PLACEABLE_TYPE:32` |	`Music Shelf Two Rack` |
+| `PLACEABLE_TYPE:33` |	`Music Shelf Long Hanger` |
+| `PLACEABLE_TYPE:34` |	`Electronics Shelf Table` |
+| `PLACEABLE_TYPE:35` |	`Electronics Shelf Circular` |
+| `PLACEABLE_TYPE:36` |	`Electronics Shelf Hanger` |
+| `PLACEABLE_TYPE:37` |	`Electronics Shelf Cupboard` |
+| `PLACEABLE_TYPE:39` |	`Produce Shelf Small` |
+| `PLACEABLE_TYPE:40` |	`Produce Shelf Wide` |
+| `PLACEABLE_TYPE:45` |	`Wooden Produce Shelf` |
+| `PLACEABLE_TYPE:46` |	`Wooden Produce Shelf Circular` |
+| `PLACEABLE_TYPE:47` |	`Toy Hanger Shelf` |
+| `PLACEABLE_TYPE:48` |	`Toy Wide Shelf` |
+| `PLACEABLE_TYPE:49` |	`Toy Shelf` |
+| `PLACEABLE_TYPE:50` |	`Toy Ball Shelf` |
+| `PLACEABLE_TYPE:54` |	`Beach Shelf` |
+| `PLACEABLE_TYPE:55` |	`Beach Basket Shelf` |
+
+
+
 ### manifest.xml
 
 The manifest defines everything about your product. Here's a full example:
