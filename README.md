@@ -145,41 +145,66 @@ The id field in an override uses the format PLACEABLE_TYPE:N where N is the nume
 
 | ID | Shelf Type |
 |---|---|
-| `PLACEABLE_TYPE:0` |	`Small Shelf` |
-| `PLACEABLE_TYPE:1` |	`Vegetable Shelf` |
-| `PLACEABLE_TYPE:2` |	`Wide Shelf` |
-| `PLACEABLE_TYPE:7` |	`Wall Shelf` |
-| `PLACEABLE_TYPE:8` |	`Bakery Shelf` |
-| `PLACEABLE_TYPE:9` |	`Bakery Shelf Wide` |
-| `PLACEABLE_TYPE:11` |	`Circular Shelf` |
-| `PLACEABLE_TYPE:20` |	`Hanger Cloth Rack 1` |
-| `PLACEABLE_TYPE:21` |	`Hanger Cloth Rack 2` |
-| `PLACEABLE_TYPE:22` |	`Hanger Cloth Rack 3` |
-| `PLACEABLE_TYPE:23` |	`Hanger Cloth Rack 4` |
-| `PLACEABLE_TYPE:24` |	`Hanger Cloth Rack 5` |
-| `PLACEABLE_TYPE:25` |	`Folded Cloth Rack 1` |
-| `PLACEABLE_TYPE:26` |	`Folded Cloth Rack 2` |
-| `PLACEABLE_TYPE:27` |	`Folded Cloth Rack 3` |
-| `PLACEABLE_TYPE:28` |	`Sports Shelf Two Rack` |
-| `PLACEABLE_TYPE:29` |	`Sports Shelf Short Hanger` |
-| `PLACEABLE_TYPE:30` |	`Sports Shelf Long Hanger` |
-| `PLACEABLE_TYPE:31` |	`Music Shelf Hanger` |
-| `PLACEABLE_TYPE:32` |	`Music Shelf Two Rack` |
-| `PLACEABLE_TYPE:33` |	`Music Shelf Long Hanger` |
-| `PLACEABLE_TYPE:34` |	`Electronics Shelf Table` |
-| `PLACEABLE_TYPE:35` |	`Electronics Shelf Circular` |
-| `PLACEABLE_TYPE:36` |	`Electronics Shelf Hanger` |
-| `PLACEABLE_TYPE:37` |	`Electronics Shelf Cupboard` |
-| `PLACEABLE_TYPE:39` |	`Produce Shelf Small` |
-| `PLACEABLE_TYPE:40` |	`Produce Shelf Wide` |
-| `PLACEABLE_TYPE:45` |	`Wooden Produce Shelf` |
-| `PLACEABLE_TYPE:46` |	`Wooden Produce Shelf Circular` |
-| `PLACEABLE_TYPE:47` |	`Toy Hanger Shelf` |
-| `PLACEABLE_TYPE:48` |	`Toy Wide Shelf` |
-| `PLACEABLE_TYPE:49` |	`Toy Shelf` |
-| `PLACEABLE_TYPE:50` |	`Toy Ball Shelf` |
-| `PLACEABLE_TYPE:54` |	`Beach Shelf` |
-| `PLACEABLE_TYPE:55` |	`Beach Basket Shelf` |
+| `PLACEABLE_TYPE:0` | `Small Shelf` |
+| `PLACEABLE_TYPE:1` | `Vegetable Shelf` |
+| `PLACEABLE_TYPE:2` | `Wide Shelf` |
+| `PLACEABLE_TYPE:3` | `Fridge` |
+| `PLACEABLE_TYPE:4` | `Freezer` |
+| `PLACEABLE_TYPE:5` | `Wide Frige` |
+| `PLACEABLE_TYPE:6` | `Vending Machine` |
+| `PLACEABLE_TYPE:7` | `Wall Shelf` |
+| `PLACEABLE_TYPE:8` | `Bakery Shelf` |
+| `PLACEABLE_TYPE:9` | `Bakery Shelf Wide` |
+| `PLACEABLE_TYPE:10` | `Oven` |
+| `PLACEABLE_TYPE:11` | `Circular Shelf` |
+| `PLACEABLE_TYPE:20` | `Hanger Cloth Rack 1` |
+| `PLACEABLE_TYPE:21` | `Hanger Cloth Rack 2` |
+| `PLACEABLE_TYPE:22` | `Hanger Cloth Rack 3` |
+| `PLACEABLE_TYPE:23` | `Hanger Cloth Rack 4` |
+| `PLACEABLE_TYPE:24` | `Hanger Cloth Rack 5` |
+| `PLACEABLE_TYPE:25` | `Folded Cloth Rack 1` |
+| `PLACEABLE_TYPE:26` | `Folded Cloth Rack 2` |
+| `PLACEABLE_TYPE:27` | `Folded Cloth Rack 3` |
+| `PLACEABLE_TYPE:28` | `Sports Shelf Two Rack` |
+| `PLACEABLE_TYPE:29` | `Sports Shelf Short Hanger` |
+| `PLACEABLE_TYPE:30` | `Sports Shelf Long Hanger` |
+| `PLACEABLE_TYPE:31` | `Music Shelf Hanger` |
+| `PLACEABLE_TYPE:32` | `Music Shelf Two Rack` |
+| `PLACEABLE_TYPE:33` | `Music Shelf Long Hanger` |
+| `PLACEABLE_TYPE:34` | `Electronics Shelf Table` |
+| `PLACEABLE_TYPE:35` | `Electronics Shelf Circular` |
+| `PLACEABLE_TYPE:36` | `Electronics Shelf Hanger` |
+| `PLACEABLE_TYPE:37` | `Electronics Shelf Cupboard` |
+| `PLACEABLE_TYPE:38` | `Candy Stand` |
+| `PLACEABLE_TYPE:39` | `Produce Shelf Small` |
+| `PLACEABLE_TYPE:40` | `Produce Shelf Wide` |
+| `PLACEABLE_TYPE:41` | `Produce Shelf Inside Corner` |
+| `PLACEABLE_TYPE:42` | `Produce Shelf Outside Corner` |
+| `PLACEABLE_TYPE:43` | `Fish Stand` |
+| `PLACEABLE_TYPE:44` | `Lobster Tank` |
+| `PLACEABLE_TYPE:45` | `Wooden Produce Shelf` |
+| `PLACEABLE_TYPE:46` | `Wooden Produce Shelf Circular` |
+| `PLACEABLE_TYPE:47` | `Toy Hanger Shelf` |
+| `PLACEABLE_TYPE:48` | `Toy Wide Shelf` |
+| `PLACEABLE_TYPE:49` | `Toy Shelf` |
+| `PLACEABLE_TYPE:50` | `Toy Ball Shelf` |
+| `PLACEABLE_TYPE:51` | `Toy Ball Shelf Row` |
+| `PLACEABLE_TYPE:52` | `Freezer Island` |
+| `PLACEABLE_TYPE:53` | `Freezer Island Corner` |
+| `PLACEABLE_TYPE:54` | `Beach Shelf` |
+| `PLACEABLE_TYPE:55` | `Beach Basket Shelf` |
+| `PLACEABLE_TYPE:56` | `Towel Stand Tall` |
+| `PLACEABLE_TYPE:57` | `Towel Stand Short` |
+| `PLACEABLE_TYPE:58` | `Guitar Wall Shelf` |
+| `PLACEABLE_TYPE:59` | `Stylish Music Shelf` |
+| `PLACEABLE_TYPE:60` | `Record Stand` |
+| `PLACEABLE_TYPE:61` | `Stylish Music Shelf Mirrored` |
+| `PLACEABLE_TYPE:62` | `Circular Music Shelf` |
+| `PLACEABLE_TYPE:63` | `Butchery Stand` |
+| `PLACEABLE_TYPE:64` | `Butcher Stand Wide` |
+| `PLACEABLE_TYPE:65` | `Count` |
+| `PLACEABLE_TYPE:5000` | `Storage Shelf` |
+
 
 
 
